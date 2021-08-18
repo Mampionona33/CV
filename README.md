@@ -1,2 +1,2 @@
 # CV  
-site statique, pour présenter mes compétence en *HTML*, *css*, *javascript* et *React*.
+Site statique, pour présenter mes compétences en *HTML*, *css*, *javascript* et *React*.

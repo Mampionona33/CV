@@ -4,6 +4,7 @@
   "description": "Site statique, pour présenter mes compétences en *HTML*, *css*, *javascript* et *React*.",
   "main": "index.js",
   "scripts": {
+    "watch": "babel src --out-dir js --watch --verbose",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/Mampionona33/CV/issues"
   },
-  "homepage": "https://github.com/Mampionona33/CV#readme"
+  "homepage": "https://github.com/Mampionona33/CV#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5"
+  }
 }
